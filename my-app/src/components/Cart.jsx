@@ -38,6 +38,7 @@ export const Cart = () => {
         return (currentitems.map((item)=>{
             if(item.id==id){
                 return {...item,quntity:item.quntity -1}
+                
             }else{
                 return item
             }
