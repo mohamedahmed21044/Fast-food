@@ -5,19 +5,19 @@
             "src":"/[^.]",
             "dest":"/"
         },
-        {"path":"","element":"<Layout/>"},
-        {"path":"/branches","element":"<NewLay/>"},     
-        {"path":",/shop/:slug" ,"element":"<BergerDatails/>"},
-        {"path":"/chiken/:slug","element":"<ChikenDeatails/>"},
-        {"path":"/keto/:slug","element":"<KetoDetails/>"},
-        {"path":"/cart", "element":"<Cart/>"},
-        {"path":"/profile","element":"<Profile/>","children":[
-          {"path":"","element":"<ProfileDetails/>"},
-          {"path":"changepassword","element":"<CahngePassword/>"}
+        {"src":"","dest":"<Layout/>"},
+        {"src":"/branches","dest":"<NewLay/>"},     
+        {"src":",/shop/:slug" ,"dest":"<BergerDatails/>"},
+        {"src":"/chiken/:slug","dest":"<ChikenDeatails/>"},
+        {"src":"/keto/:slug","dest":"<KetoDetails/>"},
+        {"src":"/cart", "dest":"<Cart/>"},
+        {"src":"/profile","dest":"<Profile/>","children":[
+          {"src":"","dest":"<ProfileDetails/>"},
+          {"src":"changepassword","dest":"<CahngePassword/>"}
         ]},
-        {"path":"/kid/:slug","element":"<KidDeatails/>"},
-        {"path":"/dessert/:slug","element":"<DessertDetails/>"},
-        {"path":"/history","element":"<Order/>"}
+        {"src":"/kid/:slug","dest":"<KidDeatails/>"},
+        {"src":"/dessert/:slug","dest":"<DessertDetails/>"},
+        {"src":"/history","dest":"<Order/>"}
     ]
   
  
