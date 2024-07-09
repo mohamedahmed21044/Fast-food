@@ -11,10 +11,10 @@
         {"src":"/chiken/:slug","dest":"<ChikenDeatails/>"},
         {"src":"/keto/:slug","dest":"<KetoDetails/>"},
         {"src":"/cart", "dest":"<Cart/>"},
-        {"src":"/profile","dest":"<Profile/>","children":[
+        {"src":"/profile","dest":"<Profile/>"},
           {"src":"","dest":"<ProfileDetails/>"},
-          {"src":"changepassword","dest":"<CahngePassword/>"}
-        ]},
+          {"src":"changepassword","dest":"<CahngePassword/>"},
+        
         {"src":"/kid/:slug","dest":"<KidDeatails/>"},
         {"src":"/dessert/:slug","dest":"<DessertDetails/>"},
         {"src":"/history","dest":"<Order/>"}
