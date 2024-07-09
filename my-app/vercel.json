@@ -2,24 +2,10 @@
  
     "routes":[
         {
-            "src":"/[^.]",
+            "src":"/(.*)",
             "dest":"/"
-        },
-        {"src":"","dest":"<Layout/>"},
-        {"src":"/branches","dest":"<NewLay/>"},     
-        {"src":",/shop/:slug" ,"dest":"<BergerDatails/>"},
-        {"src":"/chiken/:slug","dest":"<ChikenDeatails/>"},
-        {"src":"/keto/:slug","dest":"<KetoDetails/>"},
-        {"src":"/cart", "dest":"<Cart/>"},
-        {"src":"/profile","dest":"<Profile/>"},
-          {"src":"","dest":"<ProfileDetails/>"},
-          {"src":"changepassword","dest":"<CahngePassword/>"},
-        
-        {"src":"/kid/:slug","dest":"<KidDeatails/>"},
-        {"src":"/dessert/:slug","dest":"<DessertDetails/>"},
-        {"src":"/history","dest":"<Order/>"}
+        }
     ]
-  
  
     
 
