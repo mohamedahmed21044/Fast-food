@@ -1139,42 +1139,6 @@ export interface ApiPhotooPhotoo extends Schema.CollectionType {
   };
 }
 
-export interface ApiProductProduct extends Schema.CollectionType {
-  collectionName: 'products';
-  info: {
-    singularName: 'product';
-    pluralName: 'products';
-    displayName: 'product';
-    description: '';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    name: Attribute.String & Attribute.Required & Attribute.Unique;
-    photo: Attribute.Media & Attribute.Required;
-    price: Attribute.Decimal;
-    description: Attribute.Text & Attribute.Required & Attribute.Unique;
-    title: Attribute.String & Attribute.Required & Attribute.Unique;
-    price_currence: Attribute.Enumeration<['dollar', 'egypt']>;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::product.product',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::product.product',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-  };
-}
-
 export interface ApiSwiperSwiper extends Schema.CollectionType {
   collectionName: 'swipers';
   info: {
@@ -1234,7 +1198,6 @@ declare module '@strapi/types' {
       'api::kid.kid': ApiKidKid;
       'api::offerss.offerss': ApiOfferssOfferss;
       'api::photoo.photoo': ApiPhotooPhotoo;
-      'api::product.product': ApiProductProduct;
       'api::swiper.swiper': ApiSwiperSwiper;
     }
   }
