@@ -579,19 +579,23 @@ text-align: center;
 @media (max-width:1010px) {
     .Burger-details{
         padding-top: 80px;
+       
       
       
        .product{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 2rem;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       gap: .5rem;
         --tw-bg-opacity: 1;
         background-color: rgb(28 28 27 / var(--tw-bg-opacity));
-        padding-bottom: 15px;
+        padding-bottom: 10px;
         padding-inline: 15px;
+     
        }
        .Description{
+        text-align: center;
         h3{
             --tw-text-opacity: 1;
         color: rgb(255 95 0 / var(--tw-text-opacity));
@@ -611,7 +615,7 @@ text-align: center;
        }
       
        .photo{
-        width: 80px;
+        width: 90px;
         flex-shrink: 0;
         img{
             width: 100%;
