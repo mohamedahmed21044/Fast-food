@@ -47,7 +47,7 @@ const Bar = () => {
     
     <div className="photo-bar">
 
-      <img src="./public/Assets/Images/offers.png" alt="" />
+      <img src=".\src\Pages\offers.png" alt="" />
 
   </div>
 
@@ -56,7 +56,7 @@ const Bar = () => {
 
     <div className="photo-bar">
 
-      <img src="./public/Assets/Images/burger.png" alt="" />
+      <img src=".\src\Pages\burger.png" alt="" />
 
   </div>
 
@@ -65,7 +65,7 @@ const Bar = () => {
 
     <div className="photo-bar">
 
-      <img src="./public/Assets/Images/cheken.png"alt="" />
+      <img src=".\src\Pages\cheken.png"alt="" />
 
   </div>
 
@@ -74,7 +74,7 @@ const Bar = () => {
 
     <div className="photo-bar">
 
-      <img src="./public/Assets/Images/kid.png" alt="" />
+      <img src=".\src\Pages\kid.png" alt="" />
 
   </div>
 
@@ -83,7 +83,7 @@ const Bar = () => {
 
     <div className="photo-bar">
 
-      <img src="./public/Assets/Images/drinks.png" alt="" />
+      <img src=".\src\Pages\drinks.png" alt="" />
 
   </div>
 
@@ -92,7 +92,7 @@ const Bar = () => {
 
     <div className="photo-bar">
 
-      <img src="./public/Assets/Images/keto.png" alt="" />
+      <img src=".\src\Pages\keto.png" alt="" />
 
   </div>
 
@@ -101,7 +101,7 @@ const Bar = () => {
 
     <div className="photo-bar">
 
-      <img src="./public/Assets/Images/dips.png" alt="" />
+      <img src=".\src\Pages\dips.png" alt="" />
 
   </div>
 
@@ -110,7 +110,7 @@ const Bar = () => {
 
     <div className="photo-bar" >
 
-      <img src="./public/Assets/Images/appetizer.png" alt="" />
+      <img src=".\src\Pages\appetizer.png" alt="" />
 
   </div>
 
@@ -119,7 +119,7 @@ const Bar = () => {
 <Link  onClick={()=>{dessertref.current?.scrollIntoView()}}>
     <div className="photo-bar">
 
-      <img src="./public/Assets/Images/dessert.png" alt="" />
+      <img src=".\src\Pages\dessert.png" alt="" />
 
   </div>
 

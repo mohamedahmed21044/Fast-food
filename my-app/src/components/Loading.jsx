@@ -3,6 +3,7 @@ import React from 'react'
 import { IoIosArrowUp } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
 import { RiStarSFill } from "react-icons/ri";
+import bull from "../Pages/bull.png"
 
 const Loading = () => {
   return (
@@ -10,7 +11,7 @@ const Loading = () => {
     <div className="loader-section">
     <div className="loader-container">
         <div className="photo">
-       < img src="..\public\Assets\Images\bull.png" alt="" />
+       < img src={bull} alt="" />
 
         </div>
     

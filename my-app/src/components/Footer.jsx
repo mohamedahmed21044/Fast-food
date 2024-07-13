@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="second-footer">
     
             <div className="photo">
-                <img src="..\public\Assets\Images\footer-stars.png" alt="" />
+                <img src=".\src\Pages\footer-stars.png" alt="" />
             </div>
          
             <div className="space-container">
@@ -94,7 +94,7 @@ const Footer = () => {
            
                 <div className="photo">
 
-                <img src="..\public\Assets\Images\buffalo-app-CTA-img.png" alt="" />
+                <img src=".\src\Pages\buffalo-app-CTA-img.png" alt="" />
                 </div>
             </div>
             
