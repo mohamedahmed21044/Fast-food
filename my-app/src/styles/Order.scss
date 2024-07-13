@@ -1,6 +1,6 @@
 .items{
    padding-top: 80px;
-   margin-inline-start: 100px;
+   margin-inline-start: 80px;
    max-width: 800px;
    h3{
     font-size: 1.5rem;
@@ -128,8 +128,9 @@ background-color:red;
 
 .items{
    padding-top: 80px;
-   margin-inline-start: 50px !important;
+   margin-inline: 20px !important;
    max-width: 600px;
+   
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
@@ -137,7 +138,7 @@ background-color:red;
   
    
    h3{
-    font-size: 2rem;
+    font-size: 2rem ;
     text-transform: capitalize;
     margin-bottom: 20px;
     text-align: center;
@@ -154,6 +155,35 @@ background-color:red;
    
     
  }
+ .item-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-bottom: 60px;
+   }
+   .left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    .photo{
+        width: 80px !important;
+        flex-shrink: 0;
+        img{
+            width: 100%;
+        }
+    }
+    h4{
+        font-size: .9rem !important;
+        text-transform: capitalize;
+    }
+    p{
+        font-size: .6rem !important;
+    }
+   }
+
+
+
 }
 
 

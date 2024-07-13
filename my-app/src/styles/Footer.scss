@@ -297,6 +297,62 @@ min-height: 310px;
     justify-content: center;
     gap: .5rem !important ;
    }
+   .leftss{
+    
+    overflow: hidden;
+    margin-left: 0 !important;
+    margin-right: 15px !important;
+  
+    .photo{
+        width: 300px;
+        position: absolute;
+        top:5px;
+      
+      
+        
+        
+        img{
+           
+            width: 100%;
+          
+            
+           
+   
+
+}
+
+    }
+
+}
  
 
+}
+@media (max-width:600px) {
+    .frist-footer{
+        --tw-bg-opacity: 1;
+        background-color: rgb(255 95 0 / var(--tw-bg-opacity));
+        background-image: url("../Pages/footer-texture.png");
+        background-size: cover;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 180px;
+        padding-top: 40px;
+        padding: 0 10px;
+        p{
+            font-size: 2rem !important;
+            line-height: 1.1 !important;
+            letter-spacing: .5px;
+            color: white;
+            margin-inline-start: 30px;
+            display: flex;
+            flex-direction: column;
+            
+            
+           
+           
+           
+        }
+    }
+    
 }

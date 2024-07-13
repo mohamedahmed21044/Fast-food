@@ -26,17 +26,24 @@ const HotOffers = () => {
    
       <main>
       <h3>hot offers</h3>
-      <Swiper slidesPerView={3.5} spaceBetween={20} loop={true} breakpoints={{
-        300:{slidesPerView:1},
-        500:{slidesPerView:1.2},
-        600:{slidesPerView:1.5},
-        800:{slidesPerView:1.8},
-        1000:{slidesPerView:2.4},
-        1200:{slidesPerView:2.8},
-        1400:{slidesPerView:3.1},
-        1500:{slidesPerView:3.5},
-        1600:{slidesPerView:3.8},
-        1750:{slidesPerView:4.2},
+      <Swiper slidesPerView={3.5} spaceBetween={15} loop={true} breakpoints={{
+        300:{slidesPerView:1.2},
+        400:{slidesPerView:1.4},
+        500:{slidesPerView:1.8},
+        600:{slidesPerView:2.1},
+        700:{slidesPerView:2.5},
+        800:{slidesPerView:2.9},
+        900:{slidesPerView:2.1},
+        1050:{slidesPerView:2.5},
+        1180:{slidesPerView:2.6},
+        1300:{slidesPerView:3},
+        1400:{slidesPerView:3.3},
+        1550:{slidesPerView:3.5},
+        1650:{slidesPerView:3.9},
+        1850:{slidesPerView:4.1},
+        1950:{slidesPerView:4.3},
+        2100:{slidesPerView:4.9},
+        
 
       }}>
         {cardData?.data?.map((Data,id)=><>

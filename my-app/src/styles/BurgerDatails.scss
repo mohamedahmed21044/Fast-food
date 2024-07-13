@@ -576,5 +576,100 @@ text-align: center;
     }
 
 }
+@media (max-width:1010px) {
+    .Burger-details{
+        padding-top: 80px;
+      
+      
+       .product{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        --tw-bg-opacity: 1;
+        background-color: rgb(28 28 27 / var(--tw-bg-opacity));
+        padding-bottom: 15px;
+        padding-inline: 15px;
+       }
+       .Description{
+        h3{
+            --tw-text-opacity: 1;
+        color: rgb(255 95 0 / var(--tw-text-opacity));
+        font-size: 1.1rem;
+        line-height: 2rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    
+        }
+        p{
+            --tw-text-opacity: 1;
+            color: rgb(255 255 255 / var(--tw-text-opacity));
+            max-width: 500px;
+            font-size: .8rem;
+        line-height: 1.5rem;
+        }
+       }
+      
+       .photo{
+        width: 80px;
+        flex-shrink: 0;
+        img{
+            width: 100%;
+        }
+       }
+    }
+    .combo-option{
+        margin-top: 60px;
+     
+       
+        h4{
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 1.5rem;
+            line-height: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        .choose-options{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center !important;
+            margin-inline: 12px;
+    
+            gap: 5rem;
+            padding-inline-start: 100px;
+            .photo{
+                width: 70px !important;
+            }
+          
+            .option-one{
+               
+              cursor: pointer;
+                display: flex;
+                align-items: center;
+                border-radius: 15px;
+                justify-content: center;
+                gap: 1rem;
+                .description{
+    
+                    p{
+                        opacity: .5;
+         
+                        font-size: .875rem;
+                        line-height: 1.22rem;
+                        text-transform: capitalize;
+        
+        
+        
+                    }
+                }
+            }
+        }
+    }
+}
+   
+   
 
+    
 
