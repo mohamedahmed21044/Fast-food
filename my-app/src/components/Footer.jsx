@@ -7,6 +7,8 @@ import { FaFacebook } from "react-icons/fa";
 import { RxInstagramLogo } from "react-icons/rx";
 import { BsTwitterX } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
+import stars from "../Pages/footer-stars.png"
+import buffalo from "../Pages/buffalo-app-CTA-img.png"
 
 const Footer = () => {
     const navigatee=useNavigate()
@@ -23,7 +25,7 @@ const Footer = () => {
         <div className="second-footer">
     
             <div className="photo">
-                <img src=".\src\Pages\footer-stars.png" alt="" />
+                <img src={stars} alt="" />
             </div>
          
             <div className="space-container">
@@ -94,7 +96,7 @@ const Footer = () => {
            
                 <div className="photo">
 
-                <img src=".\src\Pages\buffalo-app-CTA-img.png" alt="" />
+                <img src={buffalo} alt="" />
                 </div>
             </div>
             

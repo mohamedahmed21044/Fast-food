@@ -8,6 +8,15 @@ import {Swiper,SwiperSlide} from 'swiper/react';
 import { HandleText } from '../utils/auther';
 import HotOffers from './HotOffers';
 import { useSelector } from 'react-redux';
+import burgers from "../Pages/burger.png"
+import chikens from "../Pages/cheken.png"
+import offers from "../Pages/offers.png"
+import drinks from "../Pages/drinks.png"
+import dips from "../Pages/dips.png"
+import app from "../Pages/appetizer.png"
+import dessert from "../Pages/dessert.png"
+import keto from "../Pages/keto.png"
+import kids from "../Pages/kid.png"
 
 
 const Bar = () => {
@@ -47,7 +56,7 @@ const Bar = () => {
     
     <div className="photo-bar">
 
-      <img src=".\src\Pages\offers.png" alt="" />
+      <img src={offers} alt="" />
 
   </div>
 
@@ -56,7 +65,7 @@ const Bar = () => {
 
     <div className="photo-bar">
 
-      <img src=".\src\Pages\burger.png" alt="" />
+      <img src={burgers} alt="" />
 
   </div>
 
@@ -65,7 +74,7 @@ const Bar = () => {
 
     <div className="photo-bar">
 
-      <img src=".\src\Pages\cheken.png"alt="" />
+      <img src={chikens}alt="" />
 
   </div>
 
@@ -74,7 +83,7 @@ const Bar = () => {
 
     <div className="photo-bar">
 
-      <img src=".\src\Pages\kid.png" alt="" />
+      <img src={kids} alt="" />
 
   </div>
 
@@ -83,7 +92,7 @@ const Bar = () => {
 
     <div className="photo-bar">
 
-      <img src=".\src\Pages\drinks.png" alt="" />
+      <img src={drinks}alt="" />
 
   </div>
 
@@ -92,7 +101,7 @@ const Bar = () => {
 
     <div className="photo-bar">
 
-      <img src=".\src\Pages\keto.png" alt="" />
+      <img src={keto} alt="" />
 
   </div>
 
@@ -101,7 +110,7 @@ const Bar = () => {
 
     <div className="photo-bar">
 
-      <img src=".\src\Pages\dips.png" alt="" />
+      <img src={dips} alt="" />
 
   </div>
 
@@ -110,7 +119,7 @@ const Bar = () => {
 
     <div className="photo-bar" >
 
-      <img src=".\src\Pages\appetizer.png" alt="" />
+      <img src={app} alt="" />
 
   </div>
 
@@ -119,7 +128,7 @@ const Bar = () => {
 <Link  onClick={()=>{dessertref.current?.scrollIntoView()}}>
     <div className="photo-bar">
 
-      <img src=".\src\Pages\dessert.png" alt="" />
+      <img src={dessert} alt="" />
 
   </div>
 
