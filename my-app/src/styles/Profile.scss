@@ -313,5 +313,69 @@
         left: 35%;
     }
 }
+@media (max-width:850px) {
+    .profile-container{
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+      
+    }
+    .headlines{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+    }
+    .profile-details{
+       text-align: center;
+    }
+    .fullname{
+        input{
+            width: 20rem;
+            text-align: center;
+        }
+    }
+    .e-mail{
+        input{
+            width: 20rem;
+            text-align: center;
+        }
+    }
+    .phone-numbers{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .password-container{
+        text-align: center;
+    }
+    .old-password{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       input{
+       
+        width: 15rem !important;
+       }
+    }
+    .new-password{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input{
+        
+         width: 15rem !important;
+        }
+
+    }
+
+    
+
+
+    
+}
 
 

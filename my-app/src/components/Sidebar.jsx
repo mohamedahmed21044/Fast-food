@@ -37,10 +37,22 @@ const Sidebar = () => {
   return (
     <>
     <div className={`sidebar ${show ? "show":""}`} >
-          <h3>Login to unlock exclusive</h3>
-          <h4>Discount points and deals</h4>
-          <p onClick={()=>(setlogin(true),setshow(false))}>Login</p>
-          <p onClick={()=>(setcreat(true),setshow(false))}>Create an account</p>
+    {!localStorage.getItem("tokenn")&&!localStorage.getItem("token")&&!localStorage.getItem("newtoken")?
+    <div>
+        <h3>Login to unlock exclusive</h3>
+       <h4>Discount points and deals</h4>
+       <p onClick={()=>(setlogin(true),setshow(false))}>Login</p>
+       <p onClick={()=>(setcreat(true),setshow(false))}>Create an account</p>
+
+    
+
+    </div>:""
+     
+    }
+    
+      
+
+ 
           <div className="lang">
             <div className="frist">
           <FaEarthAsia />

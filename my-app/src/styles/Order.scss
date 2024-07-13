@@ -106,8 +106,8 @@ background-color:red;
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-        gap: 2rem;
-        margin-bottom: 60px;
+        margin-bottom: 60px !important;
+        gap: 1.1rem !important;
        .left{
         .inf{
             h4{
@@ -124,6 +124,37 @@ background-color:red;
        }
 
  }
+ @media (max-width:600px) {
+
+.items{
+   padding-top: 80px;
+   margin-inline-start: 50px !important;
+   max-width: 600px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+  
+   
+   h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+   }
+   .footer{
+    .btns1{
+        width: 15rem !important;
+    }
+    .btns2{
+        width: 15rem !important;
+    }
+
+   }
+   
+    
+ }
+}
 
 
 

@@ -167,6 +167,7 @@ let [reg,setreg]=useState(false)
             <div  className="btn-two">
                 <button className={`${color?"change":""}`} type='Submitt' onClick={()=>change()}>creat an account</button>
             </div>
+            <div className='space'></div>
             <p className='span' >by continuing i agree to the     <span>Terms of service</span> and  <span>Privacy policy</span></p>
            
            
