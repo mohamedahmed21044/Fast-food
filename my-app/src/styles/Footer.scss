@@ -230,14 +230,14 @@ min-height: 310px;
         margin-inline-end:80px ;
         gap: .7rem;
         margin-top: 40px;
+     
         a{
             font-size: 1.5rem;
             color: #fff;
+            transition: .5s ease-in-out;
             &:hover{
-                border: 2px solid rgb(255 95 0 /1 );
-               border-radius: 50%;
-               height: 30px;
-               
+                transform: scale(1.1);
+                color: rgb(255 95 0 / 1);
 
             }
         }
@@ -361,7 +361,7 @@ min-height: 310px;
         gap: .7rem;
         margin-block: 40px;
        a{
-        font-size: 1rem !important;
+        font-size: 1.2rem !important;
         margin-bottom: 10px;
        }
     }

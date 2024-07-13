@@ -9,6 +9,7 @@ import { BsTwitterX } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import stars from "../Pages/footer-stars.png"
 import buffalo from "../Pages/buffalo-app-CTA-img.png"
+import screen from "../Pages/Screenshot 2024-05-22 192002.png"
 
 const Footer = () => {
     const navigatee=useNavigate()
@@ -116,7 +117,7 @@ const Footer = () => {
  
         <hr/>
             <div className="photo">
-                <img src="..\public\Assets\Images\Screenshot 2024-05-22 192002.png" alt="" />
+                <img src={screen} alt="" />
             </div>
             <div className="parent-container">
                 <div className="le">
