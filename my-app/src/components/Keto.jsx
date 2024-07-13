@@ -16,7 +16,7 @@ const Keto = ({DataKeto}) => {
     <Link to={`/keto/${DataKeto?.slug}`} onClick={()=>setrout(true)}>
     <div className="keto-icon">
             <div className="photo">
-                <img src={"http://localhost:1337"+ DataKeto.img.data[0].attributes.url}alt="" />
+                <img src={ DataKeto.img.data[0].attributes.url}alt="" />
             </div>
             <div className="description">
                 <h4>{DataKeto.title}</h4>

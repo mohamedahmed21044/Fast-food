@@ -609,7 +609,7 @@ const addtocard=([Allcart])=>{
     <div className="Burger-details">
     <div className="product">
         <div className="photo">
-            <img src={"http://localhost:1337"+ProductDetails?.data?.attributes?.img?.data[0]?.attributes?.url} alt="" />
+            <img src={ProductDetails?.data?.attributes?.img?.data[0]?.attributes?.url} alt="" />
         </div>
         <div className="Description">
             <h3>{ProductDetails?.data?.attributes?.title}</h3>

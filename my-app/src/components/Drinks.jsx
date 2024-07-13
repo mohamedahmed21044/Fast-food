@@ -27,7 +27,7 @@ const Drinks = ({DataDrinks}) => {
 
 <div className="drinks-icon" onClick={()=>addtocard(Allcart)}>
             <div className="photo">
-                <img src={"http://localhost:1337"+DataDrinks.img.data[0].attributes.url}alt="" />
+                <img src={DataDrinks.img.data[0].attributes.url}alt="" />
             </div>
             <div className="description">
                 <h4>{DataDrinks.title}</h4>

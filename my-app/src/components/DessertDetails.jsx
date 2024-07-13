@@ -37,7 +37,7 @@ export const DessertDetails = () => {
      <div className="kid-details">
     <div className="product">
         <div className="photo">
-            <img src={"http://localhost:1337" + DessertDetail?.data?.attributes?.img?.data[0]?.attributes?.url} alt="" />
+            <img src={DessertDetail?.data?.attributes?.img?.data[0]?.attributes?.url} alt="" />
         </div>
         <div className="Description">
             <h3>{DessertDetail?.data?.attributes?.title}</h3>

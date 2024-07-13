@@ -16,7 +16,7 @@ const Chiken = ({DataChiken}) => {
 
     <div className="chiken-icon">
             <div className="photo">
-                <img src={"http://localhost:1337"+DataChiken.img.data[0].attributes.url}alt="" />
+                <img src={DataChiken.img.data[0].attributes.url}alt="" />
             </div>
             <div className="description">
                 <h4>{DataChiken.title}</h4>

@@ -4,7 +4,8 @@
 
 import axios from "axios"
 
-const Base_url="http://localhost:1337/api"
+// const Base_url="http://localhost:1337/api"
+const Base_url="https://integral-bat-c268819cdf.strapiapp.com/api"
 // eslint-disable-next-line react-refresh/only-export-components
 const AxiosConfig=axios.create({
     baseURL:Base_url,

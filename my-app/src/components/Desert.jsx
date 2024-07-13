@@ -10,7 +10,7 @@ const Desert = ({DataDessert}) => {
    <Link to={`/dessert/${DataDessert?.slug}`}>
    <div className="dessert-icon">
             <div className="photo">
-                <img src={"http://localhost:1337"+DataDessert.img.data[0].attributes.url}alt="" />
+                <img src={DataDessert.img.data[0].attributes.url}alt="" />
             </div>
             <div className="description">
                 <h4>{DataDessert.title}</h4>

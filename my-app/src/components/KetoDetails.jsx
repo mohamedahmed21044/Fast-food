@@ -568,7 +568,7 @@ const KetoDetails = () => {
 <div className="Burger-details">
 <div className="product">
     <div className="photo">
-        <img src={"http://localhost:1337"+KetoDetailss?.data?.attributes?.img?.data[0]?.attributes?.url} alt="" />
+        <img src={KetoDetailss?.data?.attributes?.img?.data[0]?.attributes?.url} alt="" />
     </div>
     <div className="Description">
         <h3>{KetoDetailss?.data?.attributes?.title}</h3>

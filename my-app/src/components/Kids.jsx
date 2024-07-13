@@ -13,7 +13,7 @@ const Kids = ({DataKids}) => {
 
     <div className="kids-icon">
             <div className="photo">
-                <img src={"http://localhost:1337"+DataKids.img.data[0].attributes.url}alt="" />
+                <img src={DataKids.img.data[0].attributes.url}alt="" />
             </div>
             <div className="description">
                 <h4>{DataKids.title}</h4>

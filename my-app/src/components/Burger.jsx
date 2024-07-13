@@ -26,7 +26,7 @@ const Burger = ({DataBurger}) => {
    
         <div className="burger-icon">
             <div className="photo">
-                <img src={"http://localhost:1337"+DataBurger.img.data[0].attributes.url}alt="" />
+                <img src={DataBurger.img.data[0].attributes.url}alt="" />
             </div>
             <div className="description">
                 <h4>{DataBurger.title}</h4>
