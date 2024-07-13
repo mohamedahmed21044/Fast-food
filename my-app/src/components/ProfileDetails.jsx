@@ -105,8 +105,8 @@ const ProfileDetails = () => {
 </div>
 <div className="e-mail">
     <h4>e-mail</h4>
-    <input  onChange={change} type=" email" name=" email" value={val}  />
-    <p className={`${error?"true":""}`}>Email not valid</p>
+    <input autoComplete='false'  onChange={change} type=" email" name=" email" value={val}  />
+    <p className={`${error?"true":""}`}>Email or Name not valid</p>
    
 </div>
 <div className="btns" >

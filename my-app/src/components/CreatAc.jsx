@@ -71,6 +71,8 @@ let [reg,setreg]=useState(false)
 
        
     }
+    
+   
 
     
    
@@ -111,7 +113,7 @@ let [reg,setreg]=useState(false)
             <div   className="phone">
             
             <label htmlFor="phone-three">Phone number</label>
-            <Field onInput={(e)=>{if (e.target.value.length==11 ) {
+            <Field autocomplete="false" onInput={(e)=>{if (e.target.value.length==11 ) {
                 setcolor(true)
             
 
@@ -125,7 +127,7 @@ let [reg,setreg]=useState(false)
               <div   className="phone">
             
               <label htmlFor="username">userName</label>
-              <Field type="text" id="username" name="username" placeholder="username"/>
+              <Field autocomplete="false" type="text" id="username" name="username" placeholder="username"/>
               <ErrorMessage name='username'/>
              
             
@@ -135,7 +137,7 @@ let [reg,setreg]=useState(false)
               <div   className="phone">
             
               <label htmlFor="email">email</label>
-              <Field type="email" id="email" name="email" placeholder="Enter Your Email"/>
+              <Field autocomplete="false" type="email" id="email" name="email" placeholder="Enter Your Email"/>
               <ErrorMessage name='email'/>
              
             
@@ -145,7 +147,7 @@ let [reg,setreg]=useState(false)
               <div   className="phone">
             
               <label htmlFor="passwords">password</label>
-              <Field type="password" id="passwords" name="password" placeholder="password"/>
+              <Field autocomplete="false" type="password" id="passwords" name="password" placeholder="password"/>
               <ErrorMessage name='password'/>
              
             

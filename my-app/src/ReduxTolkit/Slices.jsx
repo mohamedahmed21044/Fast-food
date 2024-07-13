@@ -10,12 +10,11 @@ import { DessertDetails } from "../components/DessertDetails";
 
 // eslint-disable-next-line no-unused-vars
 
- const savetoken=()=>{
-    if (localStorage.getItem("token")) {
-        JSON.parse(localStorage.getItem("token"))
+ const savetoken=
+     localStorage.getItem("token")!==null?JSON.parse(localStorage.getItem("token")):""
         
-    }
- }
+    
+
  const savetokenn=localStorage.getItem("tokenn")!==null?JSON.parse(localStorage.getItem("tokenn")):""
  
 const initialState={

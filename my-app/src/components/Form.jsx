@@ -107,12 +107,12 @@ const Login = () => {
                 <div className="phone">
     
                 <label htmlFor="phone">Email</label>
-                <Field  type="identifier" name="identifier"  id="phone" placeholder="Enter Your Email"/>
+                <Field autocomplete="false"  type="identifier" name="identifier"  id="phone" placeholder="Enter Your Email"/>
                 <ErrorMessage name="identifier"/>
                 </div>
                 <div className="password">
                     <label htmlFor="password">Password</label>
-                    <Field  type="password" name="password" id="password" placeholder="********"/>
+                    <Field  autocomplete="false" type="password" name="password" id="password" placeholder="********"/>
                     <ErrorMessage name="password" />
                     
                 </div>

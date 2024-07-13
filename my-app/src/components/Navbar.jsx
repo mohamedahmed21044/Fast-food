@@ -30,6 +30,8 @@ const Navbar = () => {
   let {logins,setlogins}=useContext(HandleText)
   const dispatch=useDispatch()
   const navigate=useNavigate()
+ 
+  
   
 
 
@@ -48,6 +50,7 @@ const Navbar = () => {
 
     
   }
+ 
   const  navigat=()=>{
     if (localStorage.getItem("token")||localStorage.getItem("tokenn")||localStorage.getItem("newtoken")){
       navigate("/history")
@@ -55,6 +58,8 @@ const Navbar = () => {
     }
 
   }
+ 
+  console.log(register);
 
 
 
@@ -138,6 +143,42 @@ const Navbar = () => {
           
             
             
+           
+              { register?.user?.confirmed&&
+             <div className="log-container">
+             <div className="hello">
+            <h4>HELLo,{register?.username||register?.user?.username}</h4>
+         <IoIosArrowDown className='i' onClick={()=>setmenus(!menus)}/>
+           </div>
+
+          <div className={`culomn ${menus?"none":""}`}>
+            <ul>
+              <Link to="/profile" >
+              <li>my account</li>
+              </Link>
+              <Link to="/history">
+              <li>order history</li>
+              </Link>
+              <Link  to="/">
+              <li onClick={()=>clear()} >logout</li>
+              </Link>
+
+
+
+            </ul>
+
+
+
+
+            </div>
+          
+
+
+        </div>
+              
+
+                
+            }
               { register?.username&&
              <div className="log-container">
              <div className="hello">
@@ -173,6 +214,12 @@ const Navbar = () => {
 
                 
             }
+
+
+
+
+
+
               { LLogin?.user?.confirmed&&
             <div className="log-container">
             <div className="hello">
