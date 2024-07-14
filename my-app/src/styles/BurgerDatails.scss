@@ -574,8 +574,80 @@ text-align: center;
     .choose-options{
         padding-inline-start: 5px !important;
     }
+    .bread{
+        text-align: center;
+        margin-top: 50px;
+        h4{
+            font-size: 1.5rem;
+        line-height: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        }
+        form{
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem !important;
+           
+            flex-wrap: wrap;
+           
+             
+          
+        }
+    }
+//     .price{
+//         h2{
+//             font-size: 1.2rem !important;
+//             --tw-text-opacity: 1;
+// color: rgb(0 0 0 / var(--tw-text-opacity));
+// text-transform: uppercase;
+// font-weight: 700;
+//         }
+//         p{
+//             font-size: 1rem;
+//             font-weight: bold;
+//         }
+//     }
+//     .btn{
 
+// --tw-bg-opacity: 1;
+// background-color: rgb(255 95 0 / var(--tw-bg-opacity));
+// border: none;
+// width: 10rem !important;
+// border-radius: 10px;
+// padding-block: 15px;
+// display: flex;
+// align-items: center;
+// justify-content: center;
+// gap: .5rem;
+// cursor: pointer;
+
+// .i{
+//     font-size: 1.3rem;
+//     color: white;
+    
+// }
+// button{
+//     background-color: transparent;
+//     border: none;
+//     --tw-text-opacity: 1;
+// color: rgb(255 255 255 / var(--tw-text-opacity));
+// text-transform: uppercase;
+// font-size: .9rem !important;
+// cursor: pointer;
+
+    
+ 
+// }
+//     }
+   
 }
+
+
+
+
+
 @media (max-width:1010px) {
     .Burger-details{
         padding-top: 80px;

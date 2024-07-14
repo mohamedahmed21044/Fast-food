@@ -52,7 +52,27 @@ const Bar = () => {
   return (
     <>
     <div className={`bar-container ${fixed?"fixed":""}`}>
-    <Link onClick={()=>{offersref.current?.scrollIntoView()}} >
+      <Swiper slidesPerView={9} spaceBetween={25} breakpoints={{
+           300:{slidesPerView:1.2},
+           400:{slidesPerView:1.4},
+           500:{slidesPerView:1.8},
+           600:{slidesPerView:4.5},
+           700:{slidesPerView:2.5},
+           800:{slidesPerView:2.9},
+           900:{slidesPerView:2.1},
+           1050:{slidesPerView:2.5},
+           1180:{slidesPerView:2.6},
+           1300:{slidesPerView:3},
+           1400:{slidesPerView:3.3},
+           1550:{slidesPerView:3.5},
+           1650:{slidesPerView:3.9},
+           1850:{slidesPerView:4.1},
+           1950:{slidesPerView:4.3},
+           2100:{slidesPerView:4.9},
+
+      }} >
+        <SwiperSlide >
+        <Link onClick={()=>{offersref.current?.scrollIntoView()}} >
     
     <div className="photo-bar">
 
@@ -61,79 +81,118 @@ const Bar = () => {
   </div>
 
 </Link>
-<Link onClick={()=>{burgerref.current?.scrollIntoView()}} >
 
-    <div className="photo-bar">
+        </SwiperSlide>
+        <SwiperSlide>
+        <Link onClick={()=>{burgerref.current?.scrollIntoView()}} >
 
-      <img src={burgers} alt="" />
+<div className="photo-bar">
 
-  </div>
+  <img src={burgers} alt="" />
 
-</Link>
-<Link  onClick={()=>{chikenref.current?.scrollIntoView()}} >
-
-    <div className="photo-bar">
-
-      <img src={chikens}alt="" />
-
-  </div>
+</div>
 
 </Link>
-<Link onClick={()=>{kidsref.current?.scrollIntoView()}}>
 
-    <div className="photo-bar">
 
-      <img src={kids} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+           <Link  onClick={()=>{chikenref.current?.scrollIntoView()}} >
 
-  </div>
+<div className="photo-bar">
+
+  <img src={chikens}alt="" />
+
+</div>
 
 </Link>
+        </SwiperSlide>
+        <SwiperSlide>
+           <Link onClick={()=>{kidsref.current?.scrollIntoView()}}>
+
+<div className="photo-bar">
+
+  <img src={kids} alt="" />
+
+</div>
+
+</Link>
+
+
+        </SwiperSlide>
+        <SwiperSlide>
+
 <Link  onClick={()=>{drinkref.current?.scrollIntoView()}} >
 
-    <div className="photo-bar">
+<div className="photo-bar">
 
-      <img src={drinks}alt="" />
+  <img src={drinks}alt="" />
 
-  </div>
-
-</Link>
-<Link  onClick={()=>{ketoref.current?.scrollIntoView()}}>
-
-    <div className="photo-bar">
-
-      <img src={keto} alt="" />
-
-  </div>
+</div>
 
 </Link>
-<Link  onClick={()=>{dipsref.current?.scrollIntoView()}}>
+        </SwiperSlide>
+        <SwiperSlide>
+         <Link  onClick={()=>{ketoref.current?.scrollIntoView()}}>
 
-    <div className="photo-bar">
+ <div className="photo-bar">
 
-      <img src={dips} alt="" />
+  <img src={keto} alt="" />
 
-  </div>
-
-</Link>
-<Link  onClick={()=>{appref.current?.scrollIntoView()}}>
-
-    <div className="photo-bar" >
-
-      <img src={app} alt="" />
-
-  </div>
+ </div>
 
 </Link>
+          
+        </SwiperSlide>
+        <SwiperSlide>
+         <Link  onClick={()=>{dipsref.current?.scrollIntoView()}}>
 
-<Link  onClick={()=>{dessertref.current?.scrollIntoView()}}>
-    <div className="photo-bar">
+ <div className="photo-bar">
 
-      <img src={dessert} alt="" />
+  <img src={dips} alt="" />
 
-  </div>
+ </div>
 
-</Link>
+ </Link>
 
+        </SwiperSlide>
+        <SwiperSlide>
+          
+ <Link  onClick={()=>{appref.current?.scrollIntoView()}}>
+ <div className="photo-bar" >
+
+  <img src={app} alt="" />
+
+ </div>
+
+ </Link>
+
+        </SwiperSlide>
+        <SwiperSlide>
+          
+ <Link  onClick={()=>{dessertref.current?.scrollIntoView()}}>
+ <div className="photo-bar">
+
+  <img src={dessert} alt="" />
+
+ </div>
+
+ </Link> 
+        </SwiperSlide>
+
+   
+
+
+
+
+
+
+
+
+
+
+      </Swiper>
+   
 
 
 

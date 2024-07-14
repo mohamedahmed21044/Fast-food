@@ -49,3 +49,51 @@
 
 
 }
+@media (max-width:1010px) {
+    .kid-details{
+        padding-top: 80px;
+       
+      
+      
+       .product{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       gap: .5rem;
+        --tw-bg-opacity: 1;
+        background-color: rgb(28 28 27 / var(--tw-bg-opacity));
+        padding-bottom: 10px;
+        padding-inline: 15px;
+     
+       }
+       .Description{
+        text-align: center;
+        h3{
+            --tw-text-opacity: 1;
+        color: rgb(255 95 0 / var(--tw-text-opacity));
+        font-size: 1.1rem;
+        line-height: 2rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    
+        }
+        p{
+            --tw-text-opacity: 1;
+            color: rgb(255 255 255 / var(--tw-text-opacity));
+            max-width: 500px;
+            font-size: .8rem;
+        line-height: 1.5rem;
+        }
+       }
+      
+       .photo{
+        width: 90px;
+        flex-shrink: 0;
+        img{
+            width: 100%;
+        }
+       }
+    }
+    
+}
