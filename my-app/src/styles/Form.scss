@@ -131,6 +131,7 @@ section{
 
    }
    .btn{
+   
     p{
         display: flex;
         justify-content: center;
@@ -238,7 +239,7 @@ section{
         form{
         
             button{
-                width: 250px;
+                width: 250px !important;
                
  
             }
@@ -248,11 +249,89 @@ section{
     .span{
         display: none !important;
     }
+
+//       .btn{
+//         display: flex !important;
+//         justify-content: center !important;
+//         width: 120% !important;
+//         flex-shrink: 0 !important;
+//         margin: 20px auto;
+//         height: 50px !important;
+//     p{
+//         display: flex;
+//         justify-content: center ;
+//         color: red;
+//         display: none;
+//         margin-bottom: 20px;
+//     }
+   
+//     button{
+      
+//          display: flex;
+//          justify-content: center !important;
+//          margin:15px auto !important;
+//         text-align: center !important;
+//         padding-block: 15px; 
+//         color: #fff;
+//         --tw-bg-opacity: 1;
+//     background-color: rgb(255 95 0 / var(--tw-bg-opacity));
+//     text-transform: uppercase;
+//     border: none;
+//     border-radius: 10px;
+   
+//     font-size: .9rem;
+//     cursor: pointer;
+       
+
+//     }
+//    }
+
+    }
+    @media (max-width:800px) {
+        .btn{
+            width: 300px  !important;
+            display: flex;
+            align-items: center;
+            justify-content: center !important;
+            margin: 20px auto;
+            height: 20px ;
+            p{
+                display: flex;
+                justify-content: center;
+                color: red;
+                display: none;
+                margin-bottom: 20px;
+            }
+           
+            button{
+                 width: 600px;
+                 display: flex;
+                 justify-content: center;
+                 margin:15px auto;
+                text-align: center;
+                padding-block: 15px; 
+                color: #fff;
+                --tw-bg-opacity: 1;
+            background-color: rgb(255 95 0 / var(--tw-bg-opacity));
+            text-transform: uppercase;
+            border: none;
+            border-radius: 10px;
+           
+            font-size: .9rem;
+            cursor: pointer;
+               
+        
+            }
+           }
+        
+            }
+
+        
     
    
 
   
 
-  }
+  
 
 
