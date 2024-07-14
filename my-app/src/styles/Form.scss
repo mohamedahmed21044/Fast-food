@@ -234,7 +234,7 @@ section{
   @media (max-width:1000px){
     .form-container{
         width: 330px;
-        min-height: 50vh !important ;
+        min-height: 57vh !important ;
        
        
         form{
@@ -256,19 +256,27 @@ section{
     }
     @media (max-width:800px) {
 
-      .btn{
-        display: flex !important;
-        justify-content: center !important;
+        .form-container{
+            width: 330px;
+            min-height: 57vh !important ;
+        }  
+   
+   
+   form{
+    .btn{
+        width: 15rem !important;
+        height: 20px !important;
         margin: 25px auto !important;
-        height: 1px !important;
-        width: 100% !important;
+     
+    }
+        
+    button{
+        width: 250px !important;
+        padding-inline: 50px !important;
        
-      
-   
-  
-   
-  
-   }
+
+    }
+}
         
             }
 
