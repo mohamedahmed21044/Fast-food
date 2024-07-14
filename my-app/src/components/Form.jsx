@@ -119,8 +119,9 @@ const Login = () => {
                 <p>Forget Password?</p>
                 <div className="btn">
                     <button type='submit'>log in</button>
-                    <p className={`${wrong?"none2":""}`}>Email Or Password Is Not Valid</p>
+              
                 </div>
+                <p className={`wrong ${wrong?"none2":""}`}>Email Or Password Is Not Valid</p>
                
     
             </Form>
