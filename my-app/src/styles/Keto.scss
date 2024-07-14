@@ -86,7 +86,7 @@
                justify-content: center;
                 --tw-text-opacity: 1;
                 color: rgb(255 95 0 / var(--tw-text-opacity));
-                font-size: 1.5rem !important;
+                font-size: 1.6rem !important;
             }
         }
         .container-style{
@@ -161,6 +161,21 @@
                 }
             }
 
+        
+    }
+    @media (max-width:400px) {
+        .keto-container{
+            padding-inline: 35px;
+            margin-top: 100px;
+            
+            h1{
+               display: flex;
+               justify-content: center;
+                --tw-text-opacity: 1;
+                color: rgb(255 95 0 / var(--tw-text-opacity));
+                font-size: 1.2rem !important;
+            }
+        }
         
     }
     
