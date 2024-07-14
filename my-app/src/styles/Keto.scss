@@ -86,7 +86,8 @@
            
             gap: 2rem;
             .keto-icon{
-                width: 22rem;
+                width: 21rem;
+                padding-inline: 15px !important;
               
                
                 cursor: pointer;
@@ -95,7 +96,7 @@
                     transform: translateY(-15px);
                 }
                 .photo{
-                    width: 120px !important;
+                    width: 125px !important;
                     height: 100%;
                  
                     img{
@@ -125,7 +126,7 @@
                     }
                 }
                 .price{
-                    margin-top: 18px !important;
+                    padding-top: 25px !important;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;

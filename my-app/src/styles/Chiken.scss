@@ -1,5 +1,5 @@
 .chiken-contanier{
-    padding-inline: 30px;
+    padding-inline: 35px;
     margin-top: 150px;
     
     h1{
@@ -85,7 +85,8 @@
            
             gap: 2rem;
             .chiken-icon{
-                width: 22rem;
+                width: 21rem;
+                padding-inline: 15px !important;
               
                
                 cursor: pointer;
@@ -94,7 +95,7 @@
                     transform: translateY(-15px);
                 }
                 .photo{
-                    width: 120px !important;
+                    width: 125px !important;
                     height: 100%;
                  
                     img{
@@ -124,11 +125,12 @@
                     }
                 }
                 .price{
-                    margin-top: 18px !important;
+                  
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
                     padding-inline: 5px !important;
+                    padding-top: 25px !important;
                    
                     span{
                         font-weight: bold;

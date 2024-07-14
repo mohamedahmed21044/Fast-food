@@ -564,7 +564,16 @@ text-align: center;
     cursor: pointer;
 
 }
-@media(max-width:700px){
+@media(max-width:800px){
+    .total{
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+      
+        gap: 1rem;
+       margin-bottom: 20px;
+       
+    }
     .gm{
         display: none;
     }
@@ -596,51 +605,58 @@ text-align: center;
           
         }
     }
-//     .price{
-//         h2{
-//             font-size: 1.2rem !important;
-//             --tw-text-opacity: 1;
-// color: rgb(0 0 0 / var(--tw-text-opacity));
-// text-transform: uppercase;
-// font-weight: 700;
-//         }
-//         p{
-//             font-size: 1rem;
-//             font-weight: bold;
-//         }
-//     }
-//     .btn{
+    .price{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+       
+        h2{
+            font-size: 1.3rem !important;
+            --tw-text-opacity: 1;
+color: rgb(0 0 0 / var(--tw-text-opacity));
+text-transform: uppercase;
+font-weight: 700;
+        }
+        p{
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    }
+    .btn{
 
-// --tw-bg-opacity: 1;
-// background-color: rgb(255 95 0 / var(--tw-bg-opacity));
-// border: none;
-// width: 10rem !important;
-// border-radius: 10px;
-// padding-block: 15px;
-// display: flex;
-// align-items: center;
-// justify-content: center;
-// gap: .5rem;
-// cursor: pointer;
+--tw-bg-opacity: 1;
+background-color: rgb(255 95 0 / var(--tw-bg-opacity));
+border: none;
+width: 10rem !important;
+border-radius: 10px;
+padding-block: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
 
-// .i{
-//     font-size: 1.3rem;
-//     color: white;
+gap: .5rem;
+cursor: pointer;
+
+.i{
+    font-size: 1.3rem;
+    color: white;
     
-// }
-// button{
-//     background-color: transparent;
-//     border: none;
-//     --tw-text-opacity: 1;
-// color: rgb(255 255 255 / var(--tw-text-opacity));
-// text-transform: uppercase;
-// font-size: .9rem !important;
-// cursor: pointer;
+}
+button{
+    background-color: transparent;
+    border: none;
+    --tw-text-opacity: 1;
+color: rgb(255 255 255 / var(--tw-text-opacity));
+text-transform: uppercase;
+font-size: .9rem !important;
+cursor: pointer;
 
     
  
-// }
-//     }
+}
+    }
    
 }
 

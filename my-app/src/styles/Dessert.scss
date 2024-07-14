@@ -87,7 +87,8 @@
            
             gap: 2rem;
             .dessert-icon{
-                width: 22rem;
+                width: 21rem;
+                padding-inline: 15px !important;
 
             }
               
@@ -98,7 +99,7 @@
                     transform: translateY(-15px);
                 }
                 .photo{
-                    width: 120px !important;
+                    width: 125px !important;
                     height: 100%;
                  
                     img{
@@ -128,7 +129,7 @@
                     }
                 }
                 .price{
-                    margin-top: 18px !important;
+                    padding-top: 25px !important;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
