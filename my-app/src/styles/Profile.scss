@@ -314,6 +314,48 @@
     }
 }
 @media (max-width:850px) {
+    .btns{
+        
+        display: flex;
+        justify-content: center;
+        button{
+            width: 11rem !important;
+            padding-inline: 10px !important;
+            padding-block: 10px;
+            --tw-bg-opacity: 1;
+             background-color: rgb(255 207 179 / var(--tw-bg-opacity));
+             color: white;
+             font-size: 1rem !important;
+             text-transform: capitalize;
+             border: none;
+             border-radius: 5px;
+             cursor: pointer;
+             text-align: center !important;
+            
+        }
+    }
+    .btn-pass{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+       
+
+        button{
+            width: 11rem !important;
+            padding-block: 10px;
+            padding-inline: 10px !important;
+            --tw-bg-opacity: 1;
+             background-color: rgb(255 207 179 / var(--tw-bg-opacity));
+             color: white;
+             font-size: 1rem !important;
+             text-transform: capitalize;
+             border: none;
+             border-radius: 5px;
+             cursor: pointer;
+             text-align: center !important;
+
+        }
+    }
     .profile-container{
         display: flex;
        flex-direction: column;
