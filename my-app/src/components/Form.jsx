@@ -67,7 +67,7 @@ const Login = () => {
             setTimeout(() => {
                 setwrong(true)
                 
-            },700 );
+            },800 );
             
         }
         
