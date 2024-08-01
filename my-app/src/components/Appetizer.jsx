@@ -30,7 +30,8 @@ export const Appetizer = ({DataApe}) => {
     <>
     <div className="appetizer-icon" onClick={()=>addtocard(Allcart)}>
             <div className="photo">
-                <img src={DataApe?.img?.data[0]?.attributes?.url}alt="" />
+            <div className='animation'></div>
+                <img src={`http://localhost:1337`+DataApe?.img?.data[0]?.attributes?.url}alt="" />
             </div>
             <div className="description">
                 <h4>{DataApe?.title}</h4>

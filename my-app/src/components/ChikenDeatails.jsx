@@ -563,7 +563,7 @@ const ChikenDeatails = () => {
     <div className="Burger-details">
     <div className="product">
         <div className="photo">
-            <img src={ChikenDetails?.data?.attributes?.img?.data[0]?.attributes?.url}alt="" />
+            <img src={`http://localhost:1337`+ChikenDetails?.data?.attributes?.img?.data[0]?.attributes?.url}alt="" />
         </div>
         <div className="Description">
             <h3>{ChikenDetails?.data?.attributes?.title}</h3>
@@ -633,7 +633,7 @@ const ChikenDeatails = () => {
       <div className="choose-options">
         <div className={`option-one ${optionone && "Choose-option"}`} onClick={()=>(setoption(false),setoptionthree(false),setoptionfour(false),setoptionfive(false),setoptiosix(false),setoptiotwo(false),setoptionone(true),setbigcola(false),setgreencola(false),setgreenlemon(false),setorangejuice(false))}>
         <div className="photo">
-          <img src={ChikenDetails?.data?.attributes?.img?.data[0]?.attributes?.url} alt="" />
+          <img src={`http://localhost:1337`+ChikenDetails?.data?.attributes?.img?.data[0]?.attributes?.url} alt="" />
         </div>
         <div className="description">
           <p>choose sandwitch only</p>

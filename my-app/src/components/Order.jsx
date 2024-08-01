@@ -25,7 +25,7 @@ export const Order = () => {
         <div className={`item-container ${cancell?"cancel":""}`}>
         <div className="left">
             <div className="photo">
-                <img src={ Data.img2} alt="" />
+                <img src={`http://localhost:1337` +Data.img2} alt="" />
             </div>
             <div className="inf">
                 <h4>{Data?.title}, <span>{Data.Des}</span> </h4>

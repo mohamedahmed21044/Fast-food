@@ -33,7 +33,7 @@ const Offers = ({DataOffers}) => {
 <div className="cards-container" onClick={()=>addtocard(Allcart)}>
     <div className="cards-photo">
 
-        <img src={DataOffers.img?.data[0].attributes.url} alt="" />
+        <img src={`http://localhost:1337`+DataOffers.img?.data[0].attributes.url} alt="" />
     </div>
    </div>
   

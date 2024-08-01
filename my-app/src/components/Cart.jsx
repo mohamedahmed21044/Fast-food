@@ -114,7 +114,7 @@ const getorder=(cart)=>{
           
              
                  <div className="photo">
-                 <img src={Data.img2} alt="" />
+                 <img src={`http://localhost:1337`+Data.img2} alt="" />
              </div>        
               
                 
