@@ -18,6 +18,8 @@ const Cards = ({Dataicon}) => {
   const Allcart=[
     {img2:Dataicon?.img?.data[0]?.attributes?.url,title:Dataicon?.title,description:Dataicon?.discription,price:Dataicon?.price,id:Math.random(),quntity:1,},
   ]
+  console.log(Dataicon);
+  
  
   const addtocard=([Allcart])=>{
 
@@ -29,7 +31,7 @@ const Cards = ({Dataicon}) => {
  
   return (
    <>
-   <div className="cards-container" onClick={()=>addtocard(Allcart)}>
+   <div className="cards-container" >
     <div className="cards-photo">
         <img src={ Dataicon.img.data[0].attributes.url} alt="" />
     </div>

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "swiper",
     "pluralName": "swipers",
-    "displayName": "swiper"
+    "displayName": "swiper",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,15 +13,25 @@
   "pluginOptions": {},
   "attributes": {
     "img": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true,
-      "required": true
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true,
+      "unique": false
     }
   }
 }

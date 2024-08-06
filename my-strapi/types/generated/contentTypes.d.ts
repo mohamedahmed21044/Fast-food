@@ -1181,12 +1181,15 @@ export interface ApiSwiperSwiper extends Schema.CollectionType {
     singularName: 'swiper';
     pluralName: 'swipers';
     displayName: 'swiper';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     img: Attribute.Media & Attribute.Required;
+    title: Attribute.String & Attribute.Required & Attribute.Unique;
+    price: Attribute.Integer & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
