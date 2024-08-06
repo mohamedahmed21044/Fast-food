@@ -26,7 +26,7 @@ const Dips = ({DataDips}) => {
     <div className="dips-icon" onClick={()=>addtocard(Allcart)}>
             <div className="photo">
             <div className='animation'></div>
-                <img src={`http://localhost:1337`+DataDips.img.data[0].attributes.url}alt="" />
+                <img src={DataDips.img.data[0].attributes.url}alt="" />
             </div>
             <div className="description">
                 <h4>{DataDips.title}</h4>

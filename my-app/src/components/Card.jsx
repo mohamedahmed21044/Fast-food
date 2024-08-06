@@ -17,7 +17,7 @@ const Card = ({ productData}) => {
     
 
         <div className="photo">
-            <img src={ `http://localhost:1337`+productData.photo.data[0].attributes.url} alt="" />
+            <img src={ productData.photo.data[0].attributes.url} alt="" />
           
          
         </div>
