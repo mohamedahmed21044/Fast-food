@@ -31,7 +31,7 @@ const Cards = ({Dataicon}) => {
  
   return (
    <>
-   <div className="cards-container" >
+   <div className="cards-container" onClick={()=>addtocard(Allcart)} >
     <div className="cards-photo">
         <img src={ Dataicon.img.data[0].attributes.url} alt="" />
     </div>
