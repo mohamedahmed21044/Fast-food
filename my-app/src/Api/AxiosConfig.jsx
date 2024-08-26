@@ -5,7 +5,7 @@
 import axios from "axios"
 
 // const Base_url="http://localhost:1337/api"
-const Base_url="https://eloquent-miracle-22783a4823.strapiapp.com/api"
+const Base_url="https://holy-blessing-cd0f999f47.strapiapp.com/api"
 // eslint-disable-next-line react-refresh/only-export-components
 const AxiosConfig=axios.create({
     baseURL:Base_url,
