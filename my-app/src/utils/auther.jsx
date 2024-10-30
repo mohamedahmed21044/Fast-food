@@ -57,12 +57,6 @@ function HandleProvider({children}) {
   let[cancell,setcancell]=useState(savecancell)
   
 
-   
-    
- 
- 
-
-
 
   useEffect(()=>{
     localStorage.setItem("carts",JSON.stringify(cart))
