@@ -30,6 +30,7 @@ const Navbar = () => {
   let {logins,setlogins}=useContext(HandleText)
   const dispatch=useDispatch()
   const navigate=useNavigate()
+  const{sidebar}=useContext(HandleText)
  
   
   
@@ -67,9 +68,16 @@ const Navbar = () => {
    <Fragment>
       <nav>
         <div className="nav-container">
-          <div className="left-side">
-            <IoMenuSharp className="menu" onClick={() => setshow(!show)} />
+          <div className="left-side" >
+            <div className="icon-side-bar">
+              <span ref={sidebar} onClick={() => setshow(!show)} >
+          
+              </span>
 
+            < IoMenuSharp   className="menu"  onClick={() => setshow(!show)} />
+
+            </div>
+          
 
             <div className="photo">
               <span>العربية</span>

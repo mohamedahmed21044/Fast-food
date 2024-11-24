@@ -1,5 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React, { useRef, useState } from 'react'
 
 import { FaEarthAsia } from "react-icons/fa6";
 import { HandleText } from '../utils/auther';
@@ -17,6 +18,29 @@ const Sidebar = () => {
   const{show,setshow}=useContext(HandleText)
   const {login,setlogin,setcancell,setorder}=useContext(HandleText)
   const {creat,setcreat}=useContext(HandleText)
+  const {sidebar}=useContext(HandleText)
+  const menuside=useRef()
+
+  useEffect(()=>{
+    
+   const handleclick=(e)=>{
+    if (e.target!==sidebar.current && e.target!== menuside.current){
+      setshow(false)
+      
+    }
+   
+    
+   
+
+
+    
+   }
+   
+
+    
+
+    document.addEventListener("click",handleclick)
+  },[show])
   const clear=()=>{
     
     localStorage.removeItem("token")
@@ -34,9 +58,10 @@ const Sidebar = () => {
 
 
 
+
   return (
     <>
-    <div className={`sidebar ${show ? "show":""}`} >
+    <div ref={menuside} className={`sidebar ${show ? "show":""}`} >
     {!localStorage.getItem("tokenn")&&!localStorage.getItem("token")&&!localStorage.getItem("newtoken")?
     <div>
         <h3>Login to unlock exclusive</h3>

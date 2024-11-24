@@ -55,6 +55,7 @@ function HandleProvider({children}) {
   let[order,setorder]=useState(saveorder)
   const savecancell=localStorage.getItem("cancell")!==null?JSON.parse(localStorage.getItem("cancell")):""
   let[cancell,setcancell]=useState(savecancell)
+  const sidebar=useRef()
   
 
 
@@ -82,7 +83,7 @@ function HandleProvider({children}) {
    
 
     return(
-        <HandleText.Provider value={{show,setshow,active,setactive,activetwo,setactivetwo,login,setlogin,creat,setcreat,ape,setape,rout,setrout,routtwo,setrouttwo,cart,setcart,count,setcount,dessertref,chikenref,burgerref,dipsref,ketoref,kidsref,appref,drinkref,offersref,option,setoption,optionone,setoptionone,optiontwo,setoptiotwo,optionthree,setoptionthree,optionfour,setoptionfour,optionfive,setoptionfive,optionsix,setoptiosix,orangejuice,setorangejuice,bigcola,setbigcola,greenlemon,setgreenlemon,greencola,setgreencola,logins,setlogins,value,setvalue,order,setorder,cancell,setcancell,}}>{children}</HandleText.Provider>
+        <HandleText.Provider value={{sidebar,show,setshow,active,setactive,activetwo,setactivetwo,login,setlogin,creat,setcreat,ape,setape,rout,setrout,routtwo,setrouttwo,cart,setcart,count,setcount,dessertref,chikenref,burgerref,dipsref,ketoref,kidsref,appref,drinkref,offersref,option,setoption,optionone,setoptionone,optiontwo,setoptiotwo,optionthree,setoptionthree,optionfour,setoptionfour,optionfive,setoptionfive,optionsix,setoptiosix,orangejuice,setorangejuice,bigcola,setbigcola,greenlemon,setgreenlemon,greencola,setgreencola,logins,setlogins,value,setvalue,order,setorder,cancell,setcancell,}}>{children}</HandleText.Provider>
     )
     
 }

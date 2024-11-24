@@ -44,11 +44,11 @@ const Gallary = () => {
   }scrollbar={{el: ".swiper-progress"}}
   autoplay={{delay:3000}}
   >
-    {productData?.data?.map((Data,id,)=><>
+    {productData?.data?.map((Data,id,)=>(
         <SwiperSlide key={id}>
 
     <Card productData={Data?.attributes}  />
-        </SwiperSlide> </>
+        </SwiperSlide> )
     )}
        
 

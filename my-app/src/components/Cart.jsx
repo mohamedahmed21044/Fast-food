@@ -107,9 +107,10 @@ const getorder=(cart)=>{
           </div>
       
  
-    {cart.map((Data, id) => <>
+    {cart.map((Data, id) => (
+   
 
-        <><div className="Cart-two-container">
+       <> <div key={id} className="Cart-two-container">
             <div className="cart-left">
           
              
@@ -133,7 +134,6 @@ const getorder=(cart)=>{
                 </div>
 
 
-
             </div>
             <div className="information">
                 <div className="qty">
@@ -152,16 +152,17 @@ const getorder=(cart)=>{
                 </div>
             </div>
         </div>
+</>
 
-        </>
-
-
-
-
+    
+    
 
 
 
-    </>)}
+
+
+
+   ))}
    
    
    

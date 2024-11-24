@@ -46,13 +46,13 @@ const HotOffers = () => {
         
 
       }}>
-        {cardData?.data?.map((Data,id)=><>
+        {cardData?.data?.map((Data,id)=>(
        
           <SwiperSlide key={id}>
 
        <Cards Dataicon={Data?.attributes} />
     </SwiperSlide>
-    </>
+        )
         
         
         )}
